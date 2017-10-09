@@ -1,0 +1,4 @@
+- starpass
+- ajouter liste de vente / annuler
+- condition deconnection
+- liste item inventaire

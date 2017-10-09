@@ -1,0 +1,3 @@
+Sitemap: http://www.Intel.us/sitemap.xml
+User-agent: *
+Disallow:

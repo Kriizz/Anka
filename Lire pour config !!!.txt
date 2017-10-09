@@ -1,0 +1,48 @@
+Information sur la configuration du CMS 
+.env
+APP_ENV=localhost/intel/          Chemin du dossier url ou wwww = locahost/NomDuCMS
+APP_DEBUG=true
+APP_URL=localhost/intel/          Chemin du dossier url ou wwww = locahost/NomDuCMS 
+APP_KEY=base64:IcY2FMqJdUbNJvSD8aW4K56TIJlgGZnUfRRpRmg2gLY=
+----------------------------------------------------------------
+DB_HOST_WEB=localhost        Le localhost de Navigate
+DB_DATABASE_WEB=auth         La base de donné auth
+DB_USERNAME_WEB=root
+DB_PASSWORD_WEB=
+
+DB_HOST_FORUM=localhost      Le localhost de Navigate
+DB_DATABASE_FORUM=auth       La base de donné auth
+DB_USERNAME_FORUM=root
+DB_PASSWORD_FORUM=
+----------------------------------------------------------------
+servers.json  > pour changé votre base de donné, votre port, et IP ou vps 
+
+{
+    "servers": [
+        {
+            "name":     "NeZya",
+            "desc":     "PVP",
+            "version":  "2.42",
+            "ip":       "127.0.0.1",
+            "port":     446,
+            "ogrine":   20824,
+            "db_host":  "localhost",
+            "db_user":  "root",
+            "db_pass":  "",
+            "db_auth":  "auth",
+            "db_world": "world",
+            "rpg":      108819
+        }
+    ]
+}
+ 
+pour ce connecté au CMS, N'oublier pas de tapé sa sur votre navigateur internet.
+http://127.0.0.1/Intel/public/
+
+OU aussi
+Localhost/intel/public
+OU aussi
+127.0.0.1/intel/public
+
+Pout VPS je ne connais pas désolé,
+Pour changé titre & nom du site Tapé CTRL+F cherché  NeZya 
